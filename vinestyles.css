@@ -1,0 +1,88 @@
+body{
+    background-image:url(images/jp.webp);
+    background-position: center;
+    background-size: cover;
+    display:flex;
+    flex-direction:column ;
+    justify-content: center;
+    gap: 20px;
+}
+.heading{
+    font-size:75px;
+    font-style: oblique;
+    font-variant: small-caps;
+    font-family:cursive;
+    align-self: center;
+    color:rgb(194, 11, 96);
+}
+.fcontainer{
+    display:flex;
+   
+align-items: center;
+justify-content: center;
+align-self: center;
+gap: 10px;
+}
+
+.fitem1{
+    background-image:url(images/ds.gif);
+    background-size: cover;
+    background-position: left;
+
+    border:2px solid blue;
+    
+    width:150px;
+    height:150px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+   
+}
+
+.fitem2{
+    background-image:url(images/spirit.webp);
+    background-size: 170px;
+    background-position:bottom;
+    border:2px solid blue;
+    
+    width:100px;
+    height:100px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.fitem3{
+    background-image:url(images/200.webp);
+    background-size: cover;
+    background-position: left;
+    border:2px solid blue;
+   padding-top: 1px;
+    width:75px;
+    height:75px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.fitem4{
+    display: flex;
+    background-image:url(images/door.webp);
+    background-size: cover;
+    background-position: top;
+    border:2px solid blue;
+   
+    width:155px;
+    height:75px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+.box-text{
+   align-self: center;
+   justify-content: center;
+   padding-left: 34px;
+    font-size:30px;
+    color:rgb(194, 145, 11)
+
+}
